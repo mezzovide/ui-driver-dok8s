@@ -1,22 +1,22 @@
 {
-  "name": "ui-driver-dok8s",
+  "name": "ui-driver-doks",
   "version": "0.0.2",
   "description": "Digitalocean Kubernetes Rancher UI driver for custom docker-machine drivers",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mezzovide/ui-driver-dok8s.git"
+    "url": "git+https://github.com/mezzovide/ui-driver-doks.git"
   },
   "author": "Rancher Labs, Inc.",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/mezzovide/ui-driver-dok8s/issues"
+    "url": "https://github.com/mezzovide/ui-driver-doks/issues"
   },
   "scripts": {
     "start": "./node_modules/.bin/gulp server",
     "clean": "./node_modules/.bin/gulp clean",
     "build": "./node_modules/.bin/gulp build"
   },
-  "homepage": "https://github.com/mezzovide/ui-driver-dok8s#readme",
+  "homepage": "https://github.com/mezzovide/ui-driver-doks#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
